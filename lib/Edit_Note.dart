@@ -40,7 +40,7 @@ class EditNote extends StatelessWidget{
             const SizedBox(height: 50,),
             const TexttField(maxlines: 3, hinttext: 'Note'),
             const  SizedBox(height: 16,),
-            const TexttField(maxlines: 1, hinttext: 'date')
+            const TexttField(maxlines: 1, hinttext: 'Date')
           ],
         ),
       ),
