@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class TexttField extends StatelessWidget {
+class customTextField extends StatelessWidget {
   final int maxlines;
   final String hinttext;
 
-  const TexttField({super.key, required this.maxlines, required this.hinttext, this.onSaved,});
+  const customTextField({super.key, required this.maxlines, required this.hinttext, this.onSaved,});
 
    final void Function(String?)? onSaved;
   @override
